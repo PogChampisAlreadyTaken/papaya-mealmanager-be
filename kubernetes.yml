@@ -23,6 +23,7 @@ metadata:
   annotations:
     app.quarkus.io/build-timestamp: 2021-11-11 - 10:09:32 +0000
   labels:
+    dev.okteto.com/auto-ingress: "true"
     app.kubernetes.io/name: papaya-mealmanager-be
   name: papaya-mealmanager-be
 spec:
