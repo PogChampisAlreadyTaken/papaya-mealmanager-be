@@ -28,4 +28,4 @@ jobs:
         context: ./
         file: ./Dockerfile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/papaya-mealmanager-be:latest
+        tags: ${{ secrets.DOCKER_USER }}/papaya-mealmanager-be:latest
