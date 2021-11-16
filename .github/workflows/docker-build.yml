@@ -17,7 +17,7 @@ jobs:
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - name: docker build quarkus
         run: |
-          ls |
+          cd papaya-mealmanager-be |
           docker build .
       - name: docker push
         run: |
