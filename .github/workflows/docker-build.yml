@@ -17,6 +17,7 @@ jobs:
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - name: docker build quarkus
         run: |
+          ls |
           docker build .
       - name: docker push
         run: |
