@@ -23,8 +23,7 @@ jobs:
 
     - name: build and package Quarkus
       run: |
-        chmod +x mvnw
-        |
+        chmod +x mvnw |
         ./mvnw package
 
 
