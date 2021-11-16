@@ -23,4 +23,6 @@ jobs:
 
     - name: okteto pipeline
       uses: okteto/pipeline@latest
+      with:
+        name: mm
 
