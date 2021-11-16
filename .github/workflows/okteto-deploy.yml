@@ -1,4 +1,8 @@
 on:
+  workflow_run:
+    workflows: ["build"]
+    branches: [ main ]
+    types: [ completed ]
 
 jobs:
   deploy:

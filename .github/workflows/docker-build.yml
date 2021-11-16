@@ -1,9 +1,5 @@
-name: Docker Build and Deploy Mealmanager to Docker
+name: build
 "on":
-  workflow_run:
-    workflows: [ "deploy" ]
-    branches: [ main ]
-    types: [ completed ]
   push:
     branches:
       - main
