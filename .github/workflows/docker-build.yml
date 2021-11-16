@@ -23,7 +23,7 @@ jobs:
 
     - name: build and package Quarkus
       run: |
-        mvnw package
+        ./mvnw package
 
     - name: Build and push
       id: docker_build
