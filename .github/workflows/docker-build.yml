@@ -1,4 +1,4 @@
-name: Docker Build Mealmanager
+name: Docker Build and Deploy Mealmanager to Docker
 "on":
   push:
     branches:
