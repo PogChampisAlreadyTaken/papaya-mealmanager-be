@@ -1,3 +1,4 @@
+name: deploy
 on:
   workflow_run:
     workflows: ["build"]
@@ -22,6 +23,4 @@ jobs:
 
     - name: okteto pipeline
       uses: okteto/pipeline@latest
-      with:
-        name: pr-${{ github.event.number }}
 
