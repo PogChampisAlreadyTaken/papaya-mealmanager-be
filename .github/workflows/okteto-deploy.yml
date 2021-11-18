@@ -25,9 +25,9 @@ jobs:
       - name: destroy old pipeline
         uses: okteto/destroy-pipeline@latest
         with:
-          name: papaya-paymentservice-be
+          name: papaya-mealmanager-be
 
       - name: okteto pipeline
         uses: okteto/pipeline@latest
         with:
-          name: papaya-paymentservice-be
+          name: papaya-mealmanager-be
