@@ -15,7 +15,7 @@ public class OrderingsystemTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Hello Mealmanager, UWU"));
+             .body(is("Hello Mealmanager, UWUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU"));
     }
 
 }
