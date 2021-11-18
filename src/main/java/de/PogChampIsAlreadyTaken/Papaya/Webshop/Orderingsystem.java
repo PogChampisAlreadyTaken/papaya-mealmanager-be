@@ -9,8 +9,8 @@ import javax.ws.rs.core.MediaType;
 public class Orderingsystem {
 
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     public String hello() {
-        return "Hello Mealmanager, UWU";
+        return "Hello Mealmanager, UWUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU";
     }
 }
