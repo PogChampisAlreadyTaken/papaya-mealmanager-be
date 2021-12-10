@@ -1,4 +1,4 @@
-package de.PogChampIsAlreadyTaken.Papaya.Webshop;
+package de.PogChampIsAlreadyTaken.Papaya.Services;
 
 import javax.json.bind.Jsonb;
 import javax.json.bind.JsonbBuilder;
