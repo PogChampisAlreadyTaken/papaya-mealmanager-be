@@ -13,6 +13,7 @@ public class Meal extends PanacheEntity {
     public String hotness;
     public int menuid;
     public float price;
+    public String ingredients;
 
     public static Meal findByMenuId(int menuid){
         return find("menuid", menuid).firstResult();
