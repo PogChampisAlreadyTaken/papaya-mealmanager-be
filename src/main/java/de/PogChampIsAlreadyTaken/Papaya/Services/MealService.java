@@ -16,6 +16,13 @@ import java.util.List;
 public class MealService {
 
     @GET
+    @Path("/")
+    public Response getAllMeals() {
+        List<Meal> mealsList = Meal.listAll();
+        return Response.ok().entity(mealsList).build();
+    }
+
+    @GET
     @Path("/{id}")
     public Response getMeal(@PathParam("id") long id) {
         Meal meal = Meal.findById(id);
