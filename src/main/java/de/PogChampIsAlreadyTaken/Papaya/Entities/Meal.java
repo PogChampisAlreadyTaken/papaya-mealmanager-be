@@ -19,6 +19,7 @@ public class Meal extends PanacheEntity {
         return find("menuid", menuid).firstResult();
     }
 
+
     public static List<Meal> findByMenuCategory(int categoryid){
         return list("categoryid", categoryid);
     }
