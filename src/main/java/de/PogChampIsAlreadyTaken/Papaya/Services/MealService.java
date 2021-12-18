@@ -49,4 +49,13 @@ public class MealService {
         meal.persist();
         return Response.created(URI.create("/meals/" + meal.id)).build();
     }
+
+    @DELETE
+    @Transactional
+    @Path("/{menuid}")
+    public Response deleteMeal(@PathParam("menuid") int menuid) {
+        Meal meal = Meal.findByMenuId(menuid);
+        meal.delete();
+        return Response.noContent().build();
+    }
 }

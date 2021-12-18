@@ -19,6 +19,10 @@ public class Meal extends PanacheEntity {
         return find("menuid", menuid).firstResult();
     }
 
+    public static long deleteByMenuId(int menuid){
+        return delete("menuid", menuid);
+    }
+
     public static List<Meal> findByMenuCategory(int categoryid){
         return list("categoryid", categoryid);
     }
